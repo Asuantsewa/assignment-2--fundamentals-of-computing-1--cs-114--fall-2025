@@ -3,8 +3,7 @@
 //
 // Represents a coin with two sides that can be flipped.
 // *****************************************************************************
-import java.util.Random;
-import java.util.Random;
+import java.util.Scanner;
 
 public class Coin {
   private final int HEADS = 0;
