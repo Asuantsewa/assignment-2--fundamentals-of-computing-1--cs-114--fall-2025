@@ -1,7 +1,7 @@
 public class TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
      for (int day = 1; day<= 12; day++) {
-      System.out.println("On the " + getDaySuffix(day) + "day of christmas my ture love gave to me:");
+      System.out.println("On the " + getDaySuffix(day) + " day of christmas my ture love gave to me:");
 
       switch (day){
           case 12: System.out.println("Twelve drummers drumming, ");
