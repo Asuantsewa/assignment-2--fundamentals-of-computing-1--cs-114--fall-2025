@@ -18,5 +18,11 @@ public class TheTwelveDaysOfChristmas {
                break;
        }
        System.out.println(" day of Christmas my true love gavve to me:");
+
+// print gifts
+      switch (day){
+        
+      }
+    }  
   }
 }
