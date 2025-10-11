@@ -7,7 +7,7 @@ public class TheTwelveDaysOfChristmas {
           case 12: system.out.println("Twelve drummers drumming, ")
           case 11: System.out.println("Eleven pipers piping,");
           case 10: System.out.println("Ten lords are leaping,");
-          cae 9: System.out.println("NIne ladies dancing,");
+          case 9: System.out.println("NIne ladies dancing,");
           case 8: System.out.println("Eight maids a-milking,");
           case 7: System.out.println("Seven swans a-swimming,");
           case 6: System.out.println("Six geese a-laying,");
