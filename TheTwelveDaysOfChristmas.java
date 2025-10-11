@@ -3,6 +3,5 @@ public class TheTwelveDaysOfChristmas {
 
       switch (day){
       }
-    }  
+     }
   }
-}
