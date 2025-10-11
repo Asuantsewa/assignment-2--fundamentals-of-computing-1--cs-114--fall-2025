@@ -1,6 +1,6 @@
 public class PrintVowelsAndNonVowels 
-import java.util.Scanner;
-  public static void main(String[] args) {
+     import java.util.Scanner;
+     public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Enter a string: ");
     String input = scan.nextLine();
