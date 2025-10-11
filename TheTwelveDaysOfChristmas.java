@@ -40,7 +40,7 @@ public class TheTwelveDaysOfChristmas {
           case 10:return "10th";
           case 11:return "11th";
           case 12: return "12th";
-          default: return "";
+          default: return " ";
      }
   }
   }
