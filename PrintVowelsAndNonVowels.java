@@ -1,9 +1,9 @@
-public class PrintVowelsAndNonVowels {
+public class PrintVowelsAndNonVowels 
 import java.util.Scanner;
   public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in)
+    Scanner scan = new Scanner(System.in);
     System.out.println("Enter a string: ");
-    String input = scanner.nextLine();
+    String input = scan.nextLine();
 
 // Innotialize the counters for each lower case vowel
    int countA = 0;
@@ -22,9 +22,9 @@ for (int i = 0; i< input.length(); i++){
     }else if (ch == 'e'){
       countE++;
     }else if (ch == 'i'){
-      countI++
+      countI++;
     }else if (ch == 'o'){
-      countO++
+      countO++;
     }else if (ch == 'u'){
       countU++;
     }else{
@@ -40,4 +40,3 @@ for (int i = 0; i< input.length(); i++){
    System.out.println("u "+ countU);
    System.out.println("Non vowel characters: "+ nonVowelCount);
   }
-}

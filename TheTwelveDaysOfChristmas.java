@@ -1,10 +1,10 @@
 public class TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
      for (int day = 1; day<= 12; day++) {
-      Sysytem.out.pritln("On the " + getDaySuffix(day) + "day of christmas my ture love gave to me:");
+      System.out.println("On the " + getDaySuffix(day) + "day of christmas my ture love gave to me:");
 
       switch (day){
-          case 12: system.out.println("Twelve drummers drumming, ")
+          case 12: System.out.println("Twelve drummers drumming, ");
           case 11: System.out.println("Eleven pipers piping,");
           case 10: System.out.println("Ten lords are leaping,");
           case 9: System.out.println("NIne ladies dancing,");
