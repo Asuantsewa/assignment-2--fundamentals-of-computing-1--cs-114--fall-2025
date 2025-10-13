@@ -1,6 +1,6 @@
-public class PrintVowelsAndNonVowels 
-     import java.util.Scanner;
-     public static void main(String[] args) {
+import java.util.Scanner;
+public class PrintVowelsAndNonVowels{
+public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Enter a string: ");
     String input = scan.nextLine();
@@ -13,7 +13,7 @@ public class PrintVowelsAndNonVowels
    int countU = 0;
 // Counters for non vowels
    int nonVowelCount = 0;
-// loop 
+
 for (int i = 0; i< input.length(); i++){
   char ch = input.charAt(i); 
 // now we check for the vowel and udate the counter
@@ -30,7 +30,7 @@ for (int i = 0; i< input.length(); i++){
     }else{
       nonVowelCount++;
     }
-    }
+  }
 // to print results
    System.out.println("Vowel counts:");
    System.out.println("a: " + countA);
@@ -40,3 +40,4 @@ for (int i = 0; i< input.length(); i++){
    System.out.println("u "+ countU);
    System.out.println("Non vowel characters: "+ nonVowelCount);
   }
+}
