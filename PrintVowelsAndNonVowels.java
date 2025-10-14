@@ -6,19 +6,19 @@ public static void main(String[] args) {
     String input = scan.nextLine();
 
 // Innotialize the counters for each lower case vowel
-   int countA = 0;
-   int countE = 0;
-   int countI = 0;
-   int countO = 0;
-   int countU = 0;
+    int countA = 0;
+    int countE = 0;
+    int countI = 0;
+    int countO = 0;
+    int countU = 0;
 // Counters for non vowels
    int nonVowelCount = 0;
 
-for (int i = 0; i< input.length(); i++){
-  char ch = input.charAt(i); 
+    for (int i = 0; i< input.length(); i++){
+    char ch = input.charAt(i); 
 // now we check for the vowel and udate the counter
     if (ch == 'a'){
-      countA++;
+    countA++;
     }else if (ch == 'e'){
       countE++;
     }else if (ch == 'i'){
@@ -32,13 +32,13 @@ for (int i = 0; i< input.length(); i++){
     }
   }
 // to print results
-   System.out.println("Vowel counts:");
-   System.out.println("a: " + countA);
-   System.out.println("e " + countE );
-   System.out.println("i "+ countI);
-   System.out.println("o "+ countO);
-   System.out.println("u "+ countU);
-   System.out.println("Non vowel characters: "+ nonVowelCount);
+    System.out.println("Vowel counts:");
+    System.out.println("a: " + countA);
+    System.out.println("e " + countE );
+    System.out.println("i "+ countI);
+    System.out.println("o "+ countO);
+    System.out.println("u "+ countU);
+    System.out.println("Non vowel characters: "+ nonVowelCount);
 
     scan.close();
   }

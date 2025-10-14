@@ -1,5 +1,5 @@
+import java.util.Random;
 public class CountFlips {
-  import java.util.Random;
 public static void main(String[] args) {
 import java.util.Random;
 
