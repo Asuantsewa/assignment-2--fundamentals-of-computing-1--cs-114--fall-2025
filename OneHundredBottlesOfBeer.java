@@ -10,13 +10,13 @@ public static void main(String[] args) {
     verses = scanner.nextInt();
     if (verses <1 || verses >100){
     System.out.println("Please enter a number between 1 and 100");
-        return;
-      }
-    }else {
-      System.out.println("Invalid input. Please enter a whole number");
-      return;
+    return;
     }
-    for (int i = 100; i > 100 -verses; i--) {
+    }else {
+    System.out.println("Invalid input. Please enter a whole number");
+    return;
+    }
+  for (int i = 100; i > 100 -verses; i--) {
     System.out.println( i + " bottles of beer on the wall, " + i + " bottles of beer");
     System.out.println("If one of the bottles should happen to fall");
     System.out.println((i - 1)+ " bottles of beer on the wall");
