@@ -39,5 +39,7 @@ for (int i = 0; i< input.length(); i++){
    System.out.println("o "+ countO);
    System.out.println("u "+ countU);
    System.out.println("Non vowel characters: "+ nonVowelCount);
+
+    scan.close();
   }
 }
